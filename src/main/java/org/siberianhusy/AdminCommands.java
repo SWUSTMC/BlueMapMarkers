@@ -9,22 +9,15 @@ import org.bukkit.World;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.ArrayList;
+
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
-import static org.siberianhusy.BlueMapAPI.markerSet;
 
 public class AdminCommands implements CommandExecutor {
-    public static Map<World,Inventory> worldMarkers = new HashMap<>();
-    public static Map<Integer, World> ID = new HashMap<>();
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String s, @NotNull String[] args) {
         if (args.length==0||args.length==1&&args[0].equalsIgnoreCase("help")){
