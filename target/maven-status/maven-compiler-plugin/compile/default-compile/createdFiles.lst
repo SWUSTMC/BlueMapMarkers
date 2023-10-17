@@ -1,0 +1,7 @@
+org\siberianhusy\Commands.class
+org\siberianhusy\AdminCommands.class
+org\siberianhusy\BlueMapMarkers.class
+org\siberianhusy\MainGUIEvent.class
+org\siberianhusy\tools.class
+org\siberianhusy\BlueMapAPI.class
+org\siberianhusy\GUI.class
